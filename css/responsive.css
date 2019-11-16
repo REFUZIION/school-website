@@ -1,0 +1,200 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    .btn {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 32px 64px;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 32px;
+	margin: 13px 60px;
+	opacity: 0.6;
+	transition: 0.3s;
+  }
+}
+@media screen and (max-width: 1510px) {
+    .btn {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 32px 64px;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 32px;
+	margin: 13px 64px;
+	opacity: 0.6;
+	transition: 0.3s;
+  }
+}
+@media screen and (max-width: 900px) {
+    .btn {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 32px 50px;
+    text-align: center;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 32px;
+	margin: 13px 0px;
+	opacity: 0.6;
+	transition: 0.3s;
+  }
+  .loginscreen {
+    border-radius: 5px;
+    background-color: #750000;
+    padding: 50px;
+    width: 500px;
+    border: solid 2px;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 600px){
+.loginscreen {
+    border-radius: 5px;
+    background-color: #750000;
+    padding: 50px;
+    width: 400px;
+    border: solid 2px;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 1260px) {
+    .btn {
+        background-color: #f4511e;
+        border: none;
+        color: white;
+        padding: 6px;
+        text-align: center;
+        font-family: Courier;
+        font-weight: bold;
+        font-size: 32px;
+        /* margin: 13px 110px; */
+        opacity: 0.6;
+        transition: 0.3s;
+      }
+
+      #email {
+        height: 450px;
+        width: 800px;
+        left: 10%;
+        position: absolute;
+        color: white;
+        background-color: #f4511e;
+        border-radius: 25px;
+        padding: 10px;
+        transition: 0.3s;
+    }
+}
+@media screen and (max-width: 1030px) {
+  #email {
+      height: 450px;
+      width: 450px;
+      left: 30%;
+      position: absolute;
+      color: white;
+      background-color: #f4511e;
+      border-radius: 25px;
+      padding: 10px;
+      transition: 0.3s;
+  }
+}
+/* format for phone */
+@media screen and (max-width: 750px) {
+  .btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 1px 2px;
+      text-align: center;
+      font-family: Courier;
+      font-weight: bold;
+      font-size: 32px;
+    margin: 13px 0px;
+    opacity: 0.6;
+    transition: 0.3s;
+    }
+
+    .loginscreen {
+      border-radius: 5px;
+      background-color: #750000;
+      padding: 50px;
+      width: 250px;
+      border: solid 2px;
+      transition: 0.3s;
+    }
+
+    #email {
+      height: 450px;
+      width: 450px;
+      left: 15%;
+      position: absolute;
+      color: white;
+      background-color: #f4511e;
+      border-radius: 25px;
+      padding: 10px;
+      transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #content {
+    height: 1330px;
+  }
+  #email {
+      height: 450px;
+      width: 275px;
+      left: 7%;
+      position: absolute;
+      color: white;
+      background-color: #f4511e;
+      border-radius: 25px;
+      padding: 10px;
+      transition: 0.3s;
+  }
+
+#info1{
+    height: 400px;
+    width: 275px;
+    left: 4%;
+    position: relative;
+    color: white;
+    background-color: #f4511e;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.6;
+	transition: 0.3s;
+}
+
+#info2{
+    height: 400px;
+    width: 275px;
+    left: 4%;
+    top: 30px;
+    position: relative;
+    color: white;
+    background-color: #f4511e;
+    border-radius: 25px;
+    padding: 100px;
+    opacity: 0.6;
+	transition: 0.3s;
+}
+
+#info3{
+    height: 400px;
+    width: 275px;
+    left: 4%;
+    top: 60px;
+    position: relative;
+    color: white;
+    background-color: #f4511e;
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.6;
+	transition: 0.3s;
+}
+}
+
