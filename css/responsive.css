@@ -9,7 +9,7 @@
     font-family: Courier;
     font-weight: bold;
     font-size: 32px;
-	margin: 13px 60px;
+	/* margin: 13px 60px; */
 	opacity: 0.6;
 	transition: 0.3s;
   }
@@ -24,7 +24,7 @@
     font-family: Courier;
     font-weight: bold;
     font-size: 32px;
-	margin: 13px 64px;
+	margin: 13px 10px;
 	opacity: 0.6;
 	transition: 0.3s;
   }

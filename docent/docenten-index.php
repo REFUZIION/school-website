@@ -1,27 +1,9 @@
 <!-- PHP gedeactiveerd omdat de webhost een outdated PHP versie heeft. -->
-<?php
-$user = "docent";
-$wachtwoord = "KhGCxI7";
-$admin = "Diederik";
-$adminwachtwoord = "admin123";
-
-if(isset($_POST['verstuur'])){
-
-    $ingevulde_user = $_POST['gebruikersnaam'];
-    $ingevulde_wachtwoord = $_POST['password'];
-
-    if($ingevulde_wachtwoord == $wachtwoord && $ingevulde_user == $user || $ingevulde_wachtwoord == $adminwachtwoord && $ingevulde_user == $admin){
-        
-    }else {
-		echo "<script type=\"text/javascript\"> window.location.href = 'http://u533473.gluweb.nl/docent/docenten-login.php';</script>";
-	}
-}
-?>
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Docenten Index</title>
+	<title>REFUZiON | Docenten Index</title>
 	<link rel="shortcut icon" href="../favicon/favicon.ico" >
     <link rel="icon" type="image/gif" href="../favicon/animated_favicon1.gif" >
 	<link href="../css/style.css" rel="stylesheet"/>
@@ -34,9 +16,7 @@ if(isset($_POST['verstuur'])){
 	<meta name="HandheldFriendly" content="true">
 </head>
 <body>
-
 	<div id="container">
-
 		<div id="header">
 		<center>
 			<a href="../index.html"><button class="btn" title="Klik hier om naar de home pagina te gaan">Index</button></a>
@@ -46,20 +26,11 @@ if(isset($_POST['verstuur'])){
 		</div>
 		<br>
 		<div id="content">
-            <?php
-            if(isset($_POST['submit'])){
-                $user= $_POST['gebruikersnaam'];
-                $wachtwoord= $_POST['password'];
-
-                echo "Welkom $user";
-            }
-			?>
 			<a title="Klik hier om naar de foto gallerij te gaan" href="../fotoalbum/fotogallerij1.php">
 			<img src="img/fotogallerij.png" width="250" height="250"></a>
 
 			<a title="Klik hier om naar de nuggets video te gaan" href="nuggets.html">
 			<img src="img/nuggets.png" width="250" height="250"></a>
-
 		</div>
 		<br>
 		<div id="footer">
@@ -76,6 +47,5 @@ if(isset($_POST['verstuur'])){
 					</div>
 				</div>
 		</div>
-
 </body>
 </html>

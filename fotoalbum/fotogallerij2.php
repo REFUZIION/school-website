@@ -25,7 +25,7 @@ if(isset($_POST['verstuur'])){
 <html>
 
 <head>
-	<title>Foto gallerij</title>
+	<title>REFUZiON | Foto gallerij</title>
 	<link rel="shortcut icon" href="../favicon/favicon.ico" >
     <link rel="icon" type="image/gif" href="../favicon/animated_favicon1.gif" >
 	<link href="../css/style.css" rel="stylesheet"/>
