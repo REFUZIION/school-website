@@ -1,0 +1,32 @@
+body{
+  background: linear-gradient( rgb(51, 255, 0), rgb(255, 251, 0));
+  padding: 38px;
+}
+
+#ingangbody{
+  background: linear-gradient( rgb(51, 255, 0), rgb(255, 251, 0));
+  padding: 339px;
+}
+
+#kamer2body{
+  background: linear-gradient( rgb(51, 255, 0), rgb(255, 251, 0));
+  padding: 3px;
+}
+
+#kamer3body{
+  background: linear-gradient( rgb(51, 255, 0), rgb(255, 251, 0));
+  padding: 62px;
+}
+#kamer4body{
+  background: linear-gradient( rgb(51, 255, 0), rgb(255, 251, 0));
+  padding: 262px;
+}
+
+
+#uitgang{
+  background-image: url('https://i.imgur.com/aC3dyHE.gif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+}

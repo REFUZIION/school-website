@@ -1,9 +1,8 @@
 <!-- PHP gedeactiveerd omdat de webhost een outdated PHP versie heeft. -->
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Docenten Login</title>
+  <title>REFUZiON | Docenten Login</title>
     <link rel="shortcut icon" href="../favicon/favicon.ico" >
     <link rel="icon" type="image/gif" href="../favicon/animated_favicon1.gif" >
     <link href="../css/style.css" rel="stylesheet"/>
@@ -33,10 +32,10 @@
   <form method="POST" action="docenten-index.php">
   <div class="row">
     <div class="col-25">
-      <label for="gebruikersnaam">Gebruikersnaam*</label>
+      <label for="user">Gebruikersnaam*</label>
     </div>
     <div class="col-75">
-      <input type="text" id="gebruikersnaam" name="gebruikersnaam" placeholder="Gebruikersnaam" required>
+      <input type="text" id="user" name="user" placeholder="Gebruikersnaam" required>
     </div>
   </div>
   <div class="row">
@@ -48,28 +47,11 @@
     </div>
   </div>
   <div class="row">
-    <input type="submit" value="versturen">
+    <input type="submit" id="submit" value="submit">
   </div>
   </form>
 </div>
 </center>
-
-<?php
-$user = "docent";
-$wachtwoord = "KhGCxI7";
-$admin = "Diederik";
-$adminwachtwoord = "admin123";
-
-if(isset($_POST['verstuur'])){
-
-    $ingevulde_user = $_POST['gebruikersnaam'];
-    $ingevulde_wachtwoord = $_POST['password'];
-
-    if($ingevulde_wachtwoord == $wachtwoord && $ingevulde_user == $user || $ingevulde_wachtwoord == $adminwachtwoord && $ingevulde_user == $admin){
-      echo "<script type=\"text/javascript\"> window.location.href = 'http://u533473.gluweb.nl/docent/docenten-index.php';</script>";
-    }
-}
-?>
 		</div>
 		<br>
 		<div id="footer">
